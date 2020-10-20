@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    /* background-color: #ccb597; */
+    background-color: #ffffff;
+}
+body {
+    background-color: rgb(247, 240, 234);
+}
+div.magtitlebox {
+    min-width: 1520px;
+}
+div.mag_title {
+    width: 80%;
+    min-width: 1215.35px;
+    font-size: 30px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    font-weight: bold;
+}
+div.mag_titletext {
+    background-color: rgb(240, 225, 206);
+    padding: 10px;
+}
+
+div.magpage_box1 {
+    min-width: 1520px;
+}
+
+div.magpage_box2 {
+    min-width: 1520px;
+}
+
+div.magpage_box3 {
+    min-width: 1520px;
+}
+div.magpageleft_rec {
+    width: 50%;
+}
+div.magpage_local1 {
+    width: 80%;
+    min-width: 1215.35px;
+    margin: 20px auto 20px;
+    display: flex;
+}
+
+div.magpage_local_photo1 {
+    width: 600px;
+}
+div.magpage_local_font1 {
+    margin-top: 20px;
+}
+
+div.magpage_local_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.magpagedate1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+/* 右邊 */
+
+div.magpageright_rec {
+    width: 50%;
+}
+div.magpage_local {
+    width: 80%;
+    min-width: 1215.35px;
+    margin: 20px auto 20px;
+    display: flex;
+}
+
+div.magpageright_local_photo1 {
+    width: 600px;
+}
+div.magpageright_local_font1 {
+    margin-top: 20px;
+}
+
+div.magpageright_local_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.magpagerightdate1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+/* 第二行 */
+div.magpage_local2 {
+    width: 80%;
+    min-width: 1215.35px;
+    margin: 20px auto 20px;
+    display: flex;
+}
+
+div.magpageleft2_rec {
+    width: 50%;
+}
+
+div.magpage2_local1 {
+    width: 80%;
+    min-width: 1215.35px;
+    margin: 20px auto 20px;
+    display: flex;
+}
+
+div.magpage2_local_photo1 {
+    width: 600px;
+}
+div.magpage2_local_font1 {
+    margin-top: 20px;
+}
+
+div.magpage2_local_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.magpageleft2date1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+/* 右邊 */
+div.magpageright2_rec {
+    width: 50%;
+}
+
+div.magpageright2_rec {
+    width: 50%;
+}
+
+div.magpage2right_local_photo1 {
+    width: 600px;
+}
+div.magpage2right_local_font1 {
+    margin-top: 20px;
+}
+
+div.magpage2right_local_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.magpage2rightdate1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+/* 第三行 */
+
+div.magpage_local3 {
+    width: 80%;
+    min-width: 1215.35px;
+    margin: 20px auto 60px;
+    display: flex;
+}
+
+div.magpageleft3_rec {
+    width: 50%;
+}
+
+div.magpage3_local1 {
+    width: 80%;
+    min-width: 1215.35px;
+    margin: 20px auto 20px;
+    display: flex;
+}
+
+div.magpage3_local_photo1 {
+    width: 600px;
+}
+div.magpage3_local_font1 {
+    margin-top: 20px;
+}
+
+div.magpage3_local_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.mmagpagedate1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+/* 右邊 */
+
+div.magpageright3_rec {
+    width: 50%;
+}
+
+div.magpageright3_rec {
+    width: 50%;
+}
+
+div.magpage3right_local_photo1 {
+    width: 600px;
+}
+div.magpage3right_local_font1 {
+    margin-top: 20px;
+}
+
+div.magpage3right_local_font1 > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.magpage3rightdate1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+/* 頁碼 */
+
+div.pagination_block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    min-width: 1520px;
+}
+div.pagination_block > ul.pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+div.pagination_block > ul.pagination > li {
+    display: inline-block;
+}
+div.pagination_block > ul.pagination > li > a {
+    display: inline-block;
+    text-decoration: none;
+    border-right: 0;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #13161a;
+}
+
+/* 留意: 將第一個 li 裡的 a，加上圓角 */
+div.pagination_block > ul.pagination > li:first-child > a {
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+}
+
+div.pagination_block > ul.pagination > li > a.-on {
+    /* background-color: #e9ecef; */
+    color: #13161a;
+}
+
+div.pagination_block > ul.pagination > li > a:hover {
+    /* background-color: #e9ecef; */
+    color: #a1b6c8;
+}

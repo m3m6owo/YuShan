@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    /* background-color: #ccb597; */
+    background-color: #ffffff;
+}
+body {
+    background-color: rgb(247, 240, 234);
+}
+div.bigbox {
+    /* background-color: rgb(223, 206, 191); */
+    background-color: rgb(247, 240, 234);
+}
+
+div.titlebox {
+    min-width: 1519.2px;
+    display: flex;
+}
+div.text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.date {
+    width: 80%;
+    color: rgb(110, 110, 110);
+
+    font-size: 15px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 5px auto;
+}
+
+div.title {
+    width: 80%;
+
+    font-size: 25px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px auto;
+    font-weight: bold;
+}
+div.bigbox {
+    min-width: 1519.2px;
+}
+
+div.alltextandphoto {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.appphoto {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    align-items: center;
+}
+
+div.vscophoto {
+    width: 800px;
+}
+
+div.all_text {
+    width: 80%;
+
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.text {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.text > a {
+    text-decoration: none;
+    color: rgb(148, 79, 79);
+}
+div.text2 {
+    margin: 60px auto 40px auto;
+    color: rgb(99, 92, 92);
+    font-size: 14px;
+}
+div.breadcrumb_box {
+    min-width: 1519.2px;
+}
+div.breadcrumb {
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto auto auto;
+}
+div.breadcrumb ol.breadcrumb_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div.breadcrumb ol.breadcrumb_list > li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* 利用 ::before 擬似元素，創造斜線做為分隔 */
+div.breadcrumb ol.breadcrumb_list > li::before {
+    content: '/';
+    font-size: 18px;
+    color: #aaa;
+    margin-right: 12px;
+}
+/* 第一個 li 元素，將 ::before 設定回來需要的 */
+div.breadcrumb ol.breadcrumb_list > li:first-child::before {
+    content: '';
+    margin-right: 0;
+}
+
+/* 基本文字樣式 */
+div.breadcrumb ol.breadcrumb_list > li > a {
+    text-decoration: none;
+    display: inline-block;
+    color: #7893ad;
+}
+
+/* 滑動移過後改變文字顏色 */
+div.breadcrumb ol.breadcrumb_list > li > a:hover {
+    color: #5f1d28;
+}

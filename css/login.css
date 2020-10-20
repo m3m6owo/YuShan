@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    font-family: '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.login_photobox {
+    min-width: 1520px;
+}
+div.text_rec {
+    min-width: 726px;
+}
+div.loginphoto {
+    background-image: url(../imag/sky.png);
+    background-repeat: no-repeat;
+
+    width: 726px;
+    height: 130px;
+    min-width: 726px;
+    display: flex;
+    margin: 50px auto auto auto;
+    position: relative;
+}
+/* /* div.text_rec {
+    border: 1px solid red;
+    height: 40px;
+    position: absolute;
+} */
+div.login_text {
+    /* border: 1px solid red; */
+    width: 45%;
+    /* width: 726px; */
+    height: 60px;
+    min-width: 726px;
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+    margin: 35px auto;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+h1 {
+    font: bold 200% Consolas, Monaco, monospace;
+    color: white;
+    width: 15ch;
+    /* min-width: 726px; */
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    /* border-right: 0.05em solid; */
+    animation: typing 3s steps(15), caret 1s steps(1) infinite;
+    font-family: 'Roboto';
+    font-size: 40px;
+    animation-iteration-count: 1;
+}
+
+/* 登入會員 */
+
+div.loginbox {
+    min-width: 1520px;
+}
+div.loginsec {
+    width: 45%;
+    /* width: 726px; */
+    min-width: 726px;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+div.logintitle {
+    /* width: 340px; */
+
+    min-width: 340px;
+}
+div.title1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+/* 帳號 */
+div.login_group {
+    /* vertical-align: center; */
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro';
+}
+div.login_group > input {
+    width: 280px;
+    height: 30px;
+    margin: 10px auto 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Source Serif Pro';
+}
+
+/* 密碼 */
+
+div.login_group2 {
+    /* vertical-align: center; */
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro';
+}
+
+div.login_group2 > input {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Source Serif Pro';
+}
+
+/* 忘記密碼 */
+
+div.other {
+    /* vertical-align: center; */
+    /* padding: 20px; */
+    /* justify-content: center; */
+    display: flex;
+    padding: 0px 30px 0px 30px;
+}
+
+div.other > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+/* sign */
+div.bt_sign {
+    padding: 20px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: 'Source Serif Pro';
+}
+
+div.bt_sign > button {
+    border: 0;
+    background-color: #e4bed1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: 'Source Serif Pro';
+}
+
+div.bt_sign > button:hover {
+    color: #e4bed1;
+    background-color: #fff;
+    border: 2px #e4bed1 solid;
+}
+/* 加入會員 */
+div.addtitle {
+    width: 340px;
+    min-width: 340px;
+    font-family: 'Source Serif Pro';
+}
+
+div.title2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Serif Pro';
+}
+
+/* 信箱 */
+div.email {
+    /* vertical-align: center; */
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro';
+}
+div.email > input {
+    width: 280px;
+    height: 30px;
+    margin: 10px auto 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Source Serif Pro';
+}
+
+/* 帳號 */
+
+div.add_group {
+    /* vertical-align: center; */
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro';
+}
+
+div.add_group > input {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Source Serif Pro';
+}
+
+/* 密碼 */
+
+div.add_group2 {
+    /* vertical-align: center; */
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro';
+}
+
+div.add_group2 > input {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Source Serif Pro';
+}

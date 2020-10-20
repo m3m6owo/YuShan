@@ -1,0 +1,521 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    background-color: rgb(253, 249, 238);
+    /* border-bottom: 1px solid slategrey; */
+}
+/* body {
+    background-color: rgb(253, 247, 230);
+} */
+
+/* 推薦標題 */
+
+div.recom_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 1519.2px;
+    /* border-top: 1px solid rgb(161, 161, 161); */
+}
+div.recom_title_2 {
+    display: flex;
+    background-color: #7893ad;
+    color: #fed699;
+    font-size: 28px;
+    font-weight: bold;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 230px;
+    height: 50px;
+}
+
+/* 第一排 */
+
+div.big_box {
+    min-width: 1519.2px;
+}
+div.ig_a {
+    /* border: 1px solid red; */
+    width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+div.ig_p_1 {
+    /* margin-top: 10px; */
+    width: 270px;
+}
+div.p1_total {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p1_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p1_icon,
+div.p1_heart {
+    width: 30px;
+}
+
+/* 第二張 */
+
+div.ig_p_2 {
+    width: 270px;
+}
+
+div.p2_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p2_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p2_icon,
+div.p2_heart {
+    width: 30px;
+}
+/* 第三張 */
+
+div.ig_p_3 {
+    width: 270px;
+}
+
+div.p3_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p3_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p3_icon,
+div.p3_heart {
+    width: 30px;
+}
+
+/* 第四張 */
+div.ig_p_4 {
+    width: 270px;
+}
+
+div.p4_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p4_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p4_icon,
+div.p4_heart {
+    width: 30px;
+}
+
+/* 第二行 */
+
+div.big_box2 {
+    min-width: 1519.2px;
+}
+div.ig_b {
+    /* border: 1px solid red; */
+    width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+/* 第五張 */
+div.ig_p_5 {
+    width: 270px;
+}
+
+div.p5_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p5_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p5_icon,
+div.p5_heart {
+    width: 30px;
+}
+
+/* 第六張 */
+div.ig_p_6 {
+    width: 270px;
+}
+
+div.p6_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p6_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p6_icon,
+div.p6_heart {
+    width: 30px;
+}
+/* 第七張 */
+
+div.ig_p_7 {
+    width: 270px;
+}
+
+div.p7_total {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p7_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p7_icon,
+div.p7_heart {
+    width: 30px;
+}
+
+/* 第八張 */
+div.ig_p_8 {
+    width: 270px;
+}
+
+div.p8_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p8_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p8_icon,
+div.p8_heart {
+    width: 30px;
+}
+
+/* 第三行 */
+div.big_box3 {
+    min-width: 1519.2px;
+}
+div.ig_c {
+    /* border: 1px solid red; */
+    width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    margin: 25px auto 70px;
+    justify-content: space-between;
+}
+
+/* 第九 */
+
+div.ig_p_9 {
+    width: 270px;
+}
+
+div.p9_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p9_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p9_icon,
+div.p9_heart {
+    width: 30px;
+}
+
+/* 第十 */
+
+div.ig_p_10 {
+    width: 270px;
+}
+
+div.p10_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p10_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p10_icon,
+div.p10_heart {
+    width: 30px;
+}
+
+/* 第十一 */
+
+div.ig_p_11 {
+    width: 270px;
+}
+
+div.p11_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p11_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p11_icon,
+div.p11_heart {
+    width: 30px;
+}
+
+/* 第十二 */
+
+div.ig_p_12 {
+    width: 270px;
+}
+
+div.p12_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+div.p12_text > a {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+div.p12_icon,
+div.p12_heart {
+    width: 30px;
+}
+
+/* 頁碼 */
+
+div.pagination_block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    min-width: 1519.2px;
+}
+div.pagination_block > ul.pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+div.pagination_block > ul.pagination > li {
+    display: inline-block;
+}
+div.pagination_block > ul.pagination > li > a {
+    display: inline-block;
+    text-decoration: none;
+    border-right: 0;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #13161a;
+}
+
+/* 留意: 將第一個 li 裡的 a，加上圓角 */
+div.pagination_block > ul.pagination > li:first-child > a {
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+}
+
+div.pagination_block > ul.pagination > li > a.-on {
+    /* background-color: #e9ecef; */
+    color: #13161a;
+}
+
+div.pagination_block > ul.pagination > li > a:hover {
+    /* background-color: #e9ecef; */
+    color: #a1b6c8;
+}
+
+.hastag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.hastag > a {
+    width: 70px;
+    color: #535353;
+    background-color: #e8dccd;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+}
+
+/* hover部分 */
+div.ig_p_1 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_1:hover .HYPE,
+div.ig_p_1:focus .HYPE {
+    opacity: 0.4;
+}
+
+div.ig_p_2 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_2:hover .Antique,
+div.ig_p_2:focus .Antique {
+    opacity: 0.4;
+}
+
+div.ig_p_3 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_3:hover .car,
+div.ig_p_3:focus .car {
+    opacity: 0.4;
+}
+
+div.ig_p_4 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_4:hover .flower,
+div.ig_p_4:focus .flower {
+    opacity: 0.4;
+}
+
+div.ig_p_5 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_5:hover .flyy,
+div.ig_p_5:focus .flyy {
+    opacity: 0.4;
+}
+
+div.ig_p_6 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_6:hover .founee,
+div.ig_p_6:focus .founee {
+    opacity: 0.4;
+}
+
+div.ig_p_7 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_7:hover .HYPE,
+div.ig_p_7:focus .HYPE {
+    opacity: 0.4;
+}
+
+div.ig_p_8 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_8:hover .ku,
+div.ig_p_8:focus .ku {
+    opacity: 0.4;
+}
+
+div.ig_p_9 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_9:hover .op,
+div.ig_p_9:focus .op {
+    opacity: 0.4;
+}
+
+div.ig_p_10 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_10:hover .pa,
+div.ig_p_10:focus .pa {
+    opacity: 0.4;
+}
+
+div.ig_p_11 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_11:hover .chez,
+div.ig_p_11:focus .chez {
+    opacity: 0.4;
+}
+
+div.ig_p_12 {
+    transition: opacity 1s ease;
+}
+
+div.ig_p_12:hover .kimm,
+div.ig_p_12:focus .kimm {
+    opacity: 0.4;
+}

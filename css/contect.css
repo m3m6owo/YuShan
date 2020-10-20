@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', '微軟正黑體';
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* header {
+    border: 1px solid rgb(116, 114, 114);
+} */
+.test {
+    min-width: 1519.2px;
+}
+div.shanlistphoto {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    /* min-width: 1520px; */
+}
+div.gmail {
+    width: 80%;
+
+    margin: 0 auto;
+    text-align: center;
+}
+div.gmail > p {
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+/* span.onclick {
+    height: 50px;
+    font-size: 20px
+} */
+div.bbb {
+    width: 130px;
+    margin: 22px auto;
+    background-color: #e8dccd;
+    border-radius: 10px;
+    color: #535353;
+    font-size: 15px;
+    padding: 10px;
+}

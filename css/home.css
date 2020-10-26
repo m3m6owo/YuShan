@@ -10,7 +10,8 @@ body {
 }
 .main1 {
     width: 100%;
-    min-width: 1519.2px;
+    /* min-width: 1519.2px; */
+
     height: 600px;
     background-color: #eee2d2;
 }
@@ -20,9 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 1367.28px;
+    /* min-width: 1367.28px; */
 }
-
+div.banner2 {
+    display: none;
+}
 div.shanlist {
     font-size: 40px;
     font-weight: bold;
@@ -68,7 +71,7 @@ div.recommend_1 {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 1517.6px;
+    /* min-width: 1517.6px; */
 }
 div.recommend_2 {
     display: flex;
@@ -901,4 +904,322 @@ div.card3 {
 div.card3:hover .hypephoto1,
 div.card3:focus .hypephoto1 {
     opacity: 0.4;
+}
+
+/* ============測試============ */
+/* Slider */
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus {
+    outline: none;
+}
+.slick-loading .slick-list {
+    background: white url(https://i.imgur.com/YWGUhK4.gif) center center no-repeat;
+}
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-list,
+.slick-track,
+.slick-slide,
+.slick-slide img {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    zoom: 1;
+}
+.slick-track:before,
+.slick-track:after {
+    content: '';
+    display: table;
+}
+.slick-track:after {
+    clear: both;
+}
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+.slick-slide img {
+    display: block;
+}
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+/* Icons */
+@font-face {
+    font-family: 'slick';
+    src: url('https://www.codedevelopr.com/screenshots/2014/slick.eot');
+    src: url('https://www.codedevelopr.com/screenshots/2014/slick.eot?#iefix') format('embedded-opentype'),
+        url('https://www.codedevelopr.com/screenshots/2014/slick.woff') format('woff'),
+        url('https://www.codedevelopr.com/screenshots/2014/slick.ttf') format('truetype'),
+        url('https://www.codedevelopr.com/screenshots/2014/slick.svg#slick') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.slick-prev:focus,
+.slick-next:focus {
+    outline: none;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: 0.25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    opacity: 0.85;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+}
+.slick-prev:before {
+    content: '\2190';
+}
+
+.slick-next {
+    right: -25px;
+}
+.slick-next:before {
+    content: '\2192';
+}
+
+/* Dots */
+.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px;
+    padding: 0px;
+    cursor: pointer;
+}
+.slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.slick-dots li button:focus {
+    outline: none;
+}
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '\2022';
+    width: 20px;
+    height: 20px;
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 0.75;
+}
+
+.slick-slide > .slick-slider-img {
+    /*     margin: 10px; */
+    /*     padding: 2%; */
+    position: relative;
+    /*     border: 5px solid #FFF; */
+    display: block;
+    width: 100%;
+}
+.slick-slide .image {
+    /* padding: 10px; */
+    /*height: 180px;*/
+}
+
+.slick-slide img {
+    border: 5px solid #fff;
+    display: block;
+    width: 100%;
+}
+.slick-slide img.slick-loading {
+    display: none;
+}
+
+/* ============RWD HEADER============ */
+@media screen and (max-width: 992px) {
+    div.top_nav2 > li > a.link_style {
+        color: white;
+    }
+
+    /* 已點擊過的連結 */
+    div.top_nav2 > li > a.link_style:visited {
+        color: white;
+    }
+    /* 滑鼠移過去之後 */
+    div.top_nav2 > li > a.link_style:hover {
+        color: #5f7eaf;
+    }
+
+    /* 滑鼠按壓下去後，還沒放開 */
+    div.top_nav2 > li > a.link_style:active {
+        color: #eee2d2 8eb;
+    }
+    select.custom_select22 {
+        background: rgb(255, 255, 255);
+        /* color: rgb(90, 90, 90); */
+        background-image: url('../imag/down-arrow.png');
+        background-repeat: no-repeat;
+        background-size: 12px;
+        background-position: right 8px center;
+    }
+
+/* =======================RWD的首頁第一面======================= */
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: black;
+    }
+    div.shanlist {
+        display: none;
+    }
+    div.choose {
+        display: none;
+    }
+    div.local {
+        display: none;
+    }
+    div.local_2 {
+        display: none;
+    }
+    div.header2 {
+        background-color: black;
+    }
+
+    div.banner2 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        /* margin-top: 40px; */
+    }
+    div.banner_box {
+        background-color: black;
+        margin-top: 40px;
+    }
+    div.banner {
+        display: none;
+    }
+    .main1 {
+        background-color: black;
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width: 992px) {
+    div.recommend_1 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    
+    }
+
 }
